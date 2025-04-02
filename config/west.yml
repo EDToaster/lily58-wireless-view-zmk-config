@@ -3,7 +3,7 @@ manifest:
     - name: edtoaster
       url-base: https://github.com/edtoaster
   projects:
-    - name: zmk-custom
+    - name: zmk
       remote: edtoaster
       revision: main
       import: app/west.yml
