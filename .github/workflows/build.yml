@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: edtoaster/zmk-custom/.github/workflows/build-user-config.yml@main
+    uses: edtoaster/zmk/.github/workflows/build-user-config.yml@main
