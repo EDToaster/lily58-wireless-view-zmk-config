@@ -1,11 +1,14 @@
 manifest:
   remotes:
-    - name: edtoaster
-      url-base: https://github.com/edtoaster
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: edtoaster
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-module-toastview
+      remote: edtoaster
+      revision: main
   self:
     path: config
