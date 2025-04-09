@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: edtoaster
+      url-base: https://github.com/edtoaster
   projects:
     - name: zmk
       remote: zmkfirmware
